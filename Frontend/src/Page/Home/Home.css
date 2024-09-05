@@ -1,0 +1,39 @@
+@tailwind components;
+
+
+@layer components {
+    .home {
+        @apply 
+        bg-blue-50 
+        w-full 
+        h-full 
+        bg-[url('/public/Assets/house.png')] 
+        bg-cover bg-center 
+        p-40
+        font-mono
+        font-bold
+        text-center 
+        flex flex-col justify-center items-center gap-96
+    }
+
+    .home h1 {
+        @apply text-9xl   text-red-900
+    }
+    .home h3 {
+        @apply  text-5xl text-black
+    }
+    .home button {
+        @apply p-5  text-4xl 
+        text-gray-300 
+        bg-gradient-to-t 
+        to-red-900 
+        from-transparent m-3 
+        rounded-3xl mt-12
+        hover:bg-gradient-to-b
+        hover:to-[#d58f61]
+        transition duration-300 ease-in-out hover:scale-125
+        hover:text-[red-900]
+        font-sans
+        hover:text-[#dcd8db]
+    }
+}

@@ -1,0 +1,36 @@
+@tailwind components;
+
+@layer components {
+    .admin {
+        @apply pt-56 justify-center flex items-start flex-col flex-wrap
+    }
+
+    .setButton {
+        @apply rounded-full flex justify-center items-center w-full
+    }
+
+    .arsa-add {
+        @apply flex justify-center items-center
+    }
+
+    .arsa-add form {
+        @apply flex flex-col justify-center items-center  rounded-3xl p-12 w-[50rem]
+    }
+
+    .arsa-add form input {
+        @apply border-4 rounded-3xl border-red-500
+    }
+
+    .arsa-add form label {
+        @apply text-3xl m-3 text-white font-mono uppercase font-bold
+    }
+    .arsa-add  .radio {
+        @apply w-4 h-4 text-red-600 bg-gray-100 border-gray-300 focus:ring-red-500 dark:focus:ring-red-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600
+    }
+    .kiralik{
+        @apply bg-gradient-to-t from-red-800 to-gray-500 p-12 rounded-3xl
+    }
+    .satilik{
+        @apply bg-gradient-to-t from-red-800 to-red-300 p-12 rounded-3xl
+    }
+}

@@ -1,0 +1,32 @@
+@tailwind components;
+
+@layer components {
+    .contact{
+        @apply w-full h-full flex justify-center items-center  
+    }
+    .contact img{
+        @apply  w-40 h-40 m-3
+    }
+
+    .contact form {
+        @apply flex flex-col justify-center items-start gap-1  w-96 m-32
+    }
+    .contact input,textarea{
+        @apply w-full mt-3 p-3 rounded-3xl h-full  border-4 border-red-900
+    }
+    .contact form button{
+        @apply bg-red-900 p-5 rounded-full pl-9 pr-9 m-3 text-3xl font-sans text-gray-100
+    }
+    .contact label{
+        @apply text-4xl text-red-900  
+    }
+   .contact-info {
+    @apply text-red-900 flex flex-col m-12
+   }
+   .contact-info div {
+    @apply flex  justify-start items-center gap-3 text-xl 
+   }
+   .contact-info div svg {
+    @apply w-12 h-12 
+   }
+}

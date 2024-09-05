@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+
+ #root,.app{
+    @apply w-full m-0 bg-transparent
+  }
+  .app {
+    @apply bg-slate-50
+  }
+}
