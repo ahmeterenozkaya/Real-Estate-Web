@@ -1,0 +1,59 @@
+{
+  "satilikArsa": [],
+  "kiralikArsa": [],
+  "satilikEv": [],
+  "kiralikEv": [
+    {
+      "baslik": "sdadASD",
+      "adres": "AsdaSDAsd",
+      "şehir": "aSDadDASD",
+      "ilçe": "s",
+      "banyo_sayısı": "s",
+      "alan": "s",
+      "fiyat": "s",
+      "resim": "",
+      "image": "sfadf",
+      "id": 1
+    },
+    {
+      "baslik": "asdf",
+      "adres": "asdfas",
+      "şehir": "asdfasdf",
+      "ilçe": "asdfasdf",
+      "banyo_sayısı": "asdfasdf",
+      "alan": "asdfasdf",
+      "fiyat": "asdfasdf",
+      "resim": "",
+      "image": "asdfasdf",
+      "id": 2
+    },
+    {
+      "baslik": "e",
+      "adres": "e",
+      "şehir": "ewe",
+      "ilçe": "we",
+      "banyo_sayısı": "we",
+      "alan": "we",
+      "fiyat": "we",
+      "resim": "",
+      "image": "we",
+      "id": 3
+    }
+  ],
+  "satilikBungalov": [],
+  "kiralikBungalov": [],
+  "user": [
+    {
+      "id": 1,
+      "userName": "admin",
+      "userPassword": "root",
+      "login": false
+    },
+    {
+      "id": 2,
+      "name": "eren",
+      "password": "root",
+      "login": false
+    }
+  ]
+}
